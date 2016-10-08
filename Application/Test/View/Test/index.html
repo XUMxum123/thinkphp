@@ -13,5 +13,10 @@
      <input type="submit" id="submit" value="点击" />
    </div>
    <div style="font-size:30px; color: #f00; text-align:center;" id="inner"></div>
+   <div style="font-size:30px; color: #f00; text-align:center;">
+     <volist name="data" id="vo">
+       {$vo[DB_NBATEAM_NAME]}---<img src="{$vo[DB_NBATEAM_LOGO]}" style="width: 30px; height: 30px;" /><br />
+     </volist>
+   </div>
 </body>
 </html>
